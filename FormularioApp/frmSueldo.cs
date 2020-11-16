@@ -67,5 +67,10 @@ namespace FormularioApp
             lblResultado.Text = "Estimado " + this.txtNombre.Text + ", tu sueldo es: " + LiquidoRecibir;
 
         }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            this.Close(); //Cerrar el formulario actual
+        }
     }
 }
