@@ -49,6 +49,9 @@ namespace FormularioApp
             double valorHora = double.Parse(this.txtValorHora.Text);
             double bono = double.Parse(this.txtBono.Text);
             double totIng = horasTrabajadas * valorHora + bono;
+
+            //mostrar el total de ingresos en el cuadro de texto 
+            this.txtTotalIn.Text = totIng.ToString();
         }
     }
 }
