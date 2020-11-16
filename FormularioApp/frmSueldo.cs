@@ -52,6 +52,15 @@ namespace FormularioApp
 
             //mostrar el total de ingresos en el cuadro de texto 
             this.txtTotalIn.Text = totIng.ToString();
+
+            //sumar los egresos
+            double asoTrabajadores = double.Parse(this.txtAso.Text);
+            double bar = double.Parse(this.txtBar.Text);
+            double ctaPagar = double.Parse(this.txtCtaPagar.Text);
+            double totEgr = asoTrabajadores + bar + ctaPagar;
+
+            //mostrar el total de egresos en el cuadro de texto
+            this.txtTotalEgr.Text = totEgr.ToString();
         }
     }
 }
