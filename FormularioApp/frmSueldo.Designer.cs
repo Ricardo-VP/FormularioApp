@@ -31,24 +31,24 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.txtNombre = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.txtHoras = new System.Windows.Forms.TextBox();
-            this.txtValorHora = new System.Windows.Forms.TextBox();
-            this.txtBono = new System.Windows.Forms.TextBox();
             this.txtTotalIn = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.txtAso = new System.Windows.Forms.TextBox();
-            this.txtBar = new System.Windows.Forms.TextBox();
-            this.txtCtaPagar = new System.Windows.Forms.TextBox();
+            this.txtBono = new System.Windows.Forms.TextBox();
+            this.txtValorHora = new System.Windows.Forms.TextBox();
+            this.txtHoras = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.txtTotalEgr = new System.Windows.Forms.TextBox();
+            this.txtCtaPagar = new System.Windows.Forms.TextBox();
+            this.txtBar = new System.Windows.Forms.TextBox();
+            this.txtAso = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.txtNombre = new System.Windows.Forms.TextBox();
             this.lblResultado = new System.Windows.Forms.Label();
             this.btnCalcular = new System.Windows.Forms.Button();
             this.btnSalir = new System.Windows.Forms.Button();
@@ -89,12 +89,85 @@
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(73, 133);
+            this.groupBox1.Location = new System.Drawing.Point(32, 133);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(265, 271);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Ingresos";
+            // 
+            // txtTotalIn
+            // 
+            this.txtTotalIn.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTotalIn.Location = new System.Drawing.Point(67, 230);
+            this.txtTotalIn.Name = "txtTotalIn";
+            this.txtTotalIn.ReadOnly = true;
+            this.txtTotalIn.Size = new System.Drawing.Size(100, 24);
+            this.txtTotalIn.TabIndex = 12;
+            // 
+            // txtBono
+            // 
+            this.txtBono.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBono.Location = new System.Drawing.Point(67, 174);
+            this.txtBono.Name = "txtBono";
+            this.txtBono.Size = new System.Drawing.Size(100, 24);
+            this.txtBono.TabIndex = 11;
+            // 
+            // txtValorHora
+            // 
+            this.txtValorHora.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtValorHora.Location = new System.Drawing.Point(67, 121);
+            this.txtValorHora.Name = "txtValorHora";
+            this.txtValorHora.Size = new System.Drawing.Size(100, 24);
+            this.txtValorHora.TabIndex = 10;
+            // 
+            // txtHoras
+            // 
+            this.txtHoras.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtHoras.Location = new System.Drawing.Point(67, 63);
+            this.txtHoras.Name = "txtHoras";
+            this.txtHoras.Size = new System.Drawing.Size(100, 24);
+            this.txtHoras.TabIndex = 9;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(35, 209);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(126, 18);
+            this.label6.TabIndex = 8;
+            this.label6.Text = "Total de ingresos:";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(35, 153);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(175, 18);
+            this.label5.TabIndex = 7;
+            this.label5.Text = "Bono de responsabilidad:";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(35, 100);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(106, 18);
+            this.label4.TabIndex = 6;
+            this.label4.Text = "Valor por hora:";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(35, 42);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(125, 18);
+            this.label3.TabIndex = 5;
+            this.label3.Text = "Horas trabajadas:";
             // 
             // groupBox2
             // 
@@ -107,7 +180,7 @@
             this.groupBox2.Controls.Add(this.label8);
             this.groupBox2.Controls.Add(this.label7);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(433, 133);
+            this.groupBox2.Location = new System.Drawing.Point(446, 133);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(265, 271);
             this.groupBox2.TabIndex = 3;
@@ -115,118 +188,38 @@
             this.groupBox2.Text = "Egresos";
             this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
-            // txtNombre
+            // txtTotalEgr
             // 
-            this.txtNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNombre.Location = new System.Drawing.Point(267, 92);
-            this.txtNombre.MaxLength = 50;
-            this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(243, 26);
-            this.txtNombre.TabIndex = 4;
+            this.txtTotalEgr.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTotalEgr.Location = new System.Drawing.Point(61, 230);
+            this.txtTotalEgr.Name = "txtTotalEgr";
+            this.txtTotalEgr.ReadOnly = true;
+            this.txtTotalEgr.Size = new System.Drawing.Size(100, 24);
+            this.txtTotalEgr.TabIndex = 7;
             // 
-            // label3
+            // txtCtaPagar
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(35, 42);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(125, 18);
-            this.label3.TabIndex = 5;
-            this.label3.Text = "Horas trabajadas:";
+            this.txtCtaPagar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCtaPagar.Location = new System.Drawing.Point(61, 174);
+            this.txtCtaPagar.Name = "txtCtaPagar";
+            this.txtCtaPagar.Size = new System.Drawing.Size(100, 24);
+            this.txtCtaPagar.TabIndex = 6;
             // 
-            // label4
+            // txtBar
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(35, 100);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(106, 18);
-            this.label4.TabIndex = 6;
-            this.label4.Text = "Valor por hora:";
+            this.txtBar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBar.Location = new System.Drawing.Point(61, 121);
+            this.txtBar.Name = "txtBar";
+            this.txtBar.Size = new System.Drawing.Size(100, 24);
+            this.txtBar.TabIndex = 5;
             // 
-            // label5
+            // txtAso
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(35, 153);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(175, 18);
-            this.label5.TabIndex = 7;
-            this.label5.Text = "Bono de responsabilidad:";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(35, 209);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(126, 18);
-            this.label6.TabIndex = 8;
-            this.label6.Text = "Total de ingresos:";
-            // 
-            // txtHoras
-            // 
-            this.txtHoras.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtHoras.Location = new System.Drawing.Point(67, 63);
-            this.txtHoras.Name = "txtHoras";
-            this.txtHoras.Size = new System.Drawing.Size(100, 24);
-            this.txtHoras.TabIndex = 9;
-            // 
-            // txtValorHora
-            // 
-            this.txtValorHora.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtValorHora.Location = new System.Drawing.Point(67, 121);
-            this.txtValorHora.Name = "txtValorHora";
-            this.txtValorHora.Size = new System.Drawing.Size(100, 24);
-            this.txtValorHora.TabIndex = 10;
-            // 
-            // txtBono
-            // 
-            this.txtBono.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBono.Location = new System.Drawing.Point(67, 174);
-            this.txtBono.Name = "txtBono";
-            this.txtBono.Size = new System.Drawing.Size(100, 24);
-            this.txtBono.TabIndex = 11;
-            // 
-            // txtTotalIn
-            // 
-            this.txtTotalIn.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTotalIn.Location = new System.Drawing.Point(67, 230);
-            this.txtTotalIn.Name = "txtTotalIn";
-            this.txtTotalIn.ReadOnly = true;
-            this.txtTotalIn.Size = new System.Drawing.Size(100, 24);
-            this.txtTotalIn.TabIndex = 12;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(39, 42);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(153, 18);
-            this.label7.TabIndex = 0;
-            this.label7.Text = "Aso. de Trabajadores:";
-            this.label7.Click += new System.EventHandler(this.label7_Click);
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(39, 100);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(35, 18);
-            this.label8.TabIndex = 1;
-            this.label8.Text = "Bar:";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(39, 153);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(126, 18);
-            this.label9.TabIndex = 2;
-            this.label9.Text = "Cuenta por pagar:";
+            this.txtAso.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAso.Location = new System.Drawing.Point(61, 63);
+            this.txtAso.Name = "txtAso";
+            this.txtAso.Size = new System.Drawing.Size(100, 24);
+            this.txtAso.TabIndex = 4;
             // 
             // label10
             // 
@@ -239,44 +232,51 @@
             this.label10.Text = "Total de egresos:";
             this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
-            // txtAso
+            // label9
             // 
-            this.txtAso.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtAso.Location = new System.Drawing.Point(61, 63);
-            this.txtAso.Name = "txtAso";
-            this.txtAso.Size = new System.Drawing.Size(100, 24);
-            this.txtAso.TabIndex = 4;
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(39, 153);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(126, 18);
+            this.label9.TabIndex = 2;
+            this.label9.Text = "Cuenta por pagar:";
             // 
-            // txtBar
+            // label8
             // 
-            this.txtBar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBar.Location = new System.Drawing.Point(61, 121);
-            this.txtBar.Name = "txtBar";
-            this.txtBar.Size = new System.Drawing.Size(100, 24);
-            this.txtBar.TabIndex = 5;
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(39, 100);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(35, 18);
+            this.label8.TabIndex = 1;
+            this.label8.Text = "Bar:";
             // 
-            // txtCtaPagar
+            // label7
             // 
-            this.txtCtaPagar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCtaPagar.Location = new System.Drawing.Point(61, 174);
-            this.txtCtaPagar.Name = "txtCtaPagar";
-            this.txtCtaPagar.Size = new System.Drawing.Size(100, 24);
-            this.txtCtaPagar.TabIndex = 6;
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(39, 42);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(153, 18);
+            this.label7.TabIndex = 0;
+            this.label7.Text = "Aso. de Trabajadores:";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
-            // txtTotalEgr
+            // txtNombre
             // 
-            this.txtTotalEgr.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTotalEgr.Location = new System.Drawing.Point(61, 230);
-            this.txtTotalEgr.Name = "txtTotalEgr";
-            this.txtTotalEgr.ReadOnly = true;
-            this.txtTotalEgr.Size = new System.Drawing.Size(100, 24);
-            this.txtTotalEgr.TabIndex = 7;
+            this.txtNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNombre.Location = new System.Drawing.Point(267, 92);
+            this.txtNombre.MaxLength = 50;
+            this.txtNombre.Name = "txtNombre";
+            this.txtNombre.Size = new System.Drawing.Size(243, 26);
+            this.txtNombre.TabIndex = 4;
             // 
             // lblResultado
             // 
             this.lblResultado.AutoSize = true;
             this.lblResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblResultado.Location = new System.Drawing.Point(122, 425);
+            this.lblResultado.Location = new System.Drawing.Point(54, 421);
             this.lblResultado.Name = "lblResultado";
             this.lblResultado.Size = new System.Drawing.Size(161, 24);
             this.lblResultado.TabIndex = 5;
@@ -285,9 +285,9 @@
             // btnCalcular
             // 
             this.btnCalcular.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCalcular.Location = new System.Drawing.Point(330, 423);
+            this.btnCalcular.Location = new System.Drawing.Point(303, 217);
             this.btnCalcular.Name = "btnCalcular";
-            this.btnCalcular.Size = new System.Drawing.Size(119, 31);
+            this.btnCalcular.Size = new System.Drawing.Size(137, 34);
             this.btnCalcular.TabIndex = 6;
             this.btnCalcular.Text = "CALCULAR";
             this.btnCalcular.UseVisualStyleBackColor = true;
@@ -296,9 +296,9 @@
             // btnSalir
             // 
             this.btnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSalir.Location = new System.Drawing.Point(494, 423);
+            this.btnSalir.Location = new System.Drawing.Point(303, 280);
             this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(131, 31);
+            this.btnSalir.Size = new System.Drawing.Size(137, 31);
             this.btnSalir.TabIndex = 7;
             this.btnSalir.Text = "SALIR";
             this.btnSalir.UseVisualStyleBackColor = true;

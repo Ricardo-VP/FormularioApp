@@ -61,6 +61,11 @@ namespace FormularioApp
 
             //mostrar el total de egresos en el cuadro de texto
             this.txtTotalEgr.Text = totEgr.ToString();
+
+            //mostrar mensaje del líquido a recibir
+            double LiquidoRecibir = totIng - totEgr;
+            lblResultado.Text = "Estimado " + this.txtNombre.Text + ", tu sueldo es: " + LiquidoRecibir;
+
         }
     }
 }
