@@ -112,6 +112,7 @@
             this.txtBono.Name = "txtBono";
             this.txtBono.Size = new System.Drawing.Size(100, 24);
             this.txtBono.TabIndex = 11;
+            this.txtBono.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtBono_KeyPress);
             // 
             // txtValorHora
             // 
@@ -120,6 +121,7 @@
             this.txtValorHora.Name = "txtValorHora";
             this.txtValorHora.Size = new System.Drawing.Size(100, 24);
             this.txtValorHora.TabIndex = 10;
+            this.txtValorHora.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtValorHora_KeyPress);
             // 
             // txtHoras
             // 
@@ -128,6 +130,8 @@
             this.txtHoras.Name = "txtHoras";
             this.txtHoras.Size = new System.Drawing.Size(100, 24);
             this.txtHoras.TabIndex = 9;
+            this.txtHoras.TextChanged += new System.EventHandler(this.txtHoras_TextChanged);
+            this.txtHoras.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtHoras_KeyPress);
             // 
             // label6
             // 
@@ -204,6 +208,7 @@
             this.txtCtaPagar.Name = "txtCtaPagar";
             this.txtCtaPagar.Size = new System.Drawing.Size(100, 24);
             this.txtCtaPagar.TabIndex = 6;
+            this.txtCtaPagar.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCtaPagar_KeyPress);
             // 
             // txtBar
             // 
@@ -212,6 +217,7 @@
             this.txtBar.Name = "txtBar";
             this.txtBar.Size = new System.Drawing.Size(100, 24);
             this.txtBar.TabIndex = 5;
+            this.txtBar.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtBar_KeyPress);
             // 
             // txtAso
             // 
@@ -220,6 +226,7 @@
             this.txtAso.Name = "txtAso";
             this.txtAso.Size = new System.Drawing.Size(100, 24);
             this.txtAso.TabIndex = 4;
+            this.txtAso.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtAso_KeyPress);
             // 
             // label10
             // 
@@ -271,6 +278,7 @@
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(243, 26);
             this.txtNombre.TabIndex = 4;
+            this.txtNombre.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNombre_KeyPress);
             // 
             // lblResultado
             // 
