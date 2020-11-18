@@ -128,24 +128,13 @@ namespace FormularioApp
 
             public static void SoloLetras(KeyPressEventArgs v) //Función para validar letras
             {
-            if (Char.IsLetter(v.KeyChar))
+            if (!(char.IsLetter(v.KeyChar)) && (v.KeyChar != (char)Keys.Back))
             {
-                v.Handled = false;
-            }
-            else if (Char.IsSeparator(v.KeyChar))
-            {
-                v.Handled = false;
-            }
-            else if (Char.IsControl(v.KeyChar))
-            {
-                v.Handled = false;
-            }
-            else
-            {
+                MessageBox.Show("Solo se permiten letras", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 v.Handled = true;
-                MessageBox.Show("Por favor ingresa solo letras sin tildes", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                return;
             }
-            }
+        }
 
 
             public static void NumerosDecimales(KeyPressEventArgs v) //Función para validar números/decimales
