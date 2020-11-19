@@ -53,6 +53,7 @@
             this.label1.Size = new System.Drawing.Size(286, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "Ingresa el número a transformar";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // txtNumero
             // 
@@ -62,6 +63,7 @@
             this.txtNumero.Name = "txtNumero";
             this.txtNumero.Size = new System.Drawing.Size(185, 29);
             this.txtNumero.TabIndex = 1;
+            this.txtNumero.TextChanged += new System.EventHandler(this.txtNumero_TextChanged);
             // 
             // groupBox1
             // 
@@ -178,6 +180,7 @@
             this.Controls.Add(this.label1);
             this.Name = "frmNumEnBinario";
             this.Text = "Transformar número entero en binario";
+            this.Load += new System.EventHandler(this.frmNumEnBinario_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);

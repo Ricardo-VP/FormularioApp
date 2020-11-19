@@ -98,6 +98,19 @@ namespace FormularioApp
             }//Fin del bucle while
         }
 
+        private void frmNumEnBinario_Load(object sender, EventArgs e)
+        {
 
+        }
+
+        private void txtNumero_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
