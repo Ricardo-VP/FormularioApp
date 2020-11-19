@@ -16,7 +16,7 @@ namespace FormularioApp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmSueldo());
+            Application.Run(new frmNumEnBinario());
         }
     }
 }
