@@ -30,12 +30,74 @@ namespace FormularioApp
             //validar que esté en el rango de 0 a 255
             int num = int.Parse(this.txtNumero.Text);
 
-            if(!(num>=0 && num >= 255))
+            if(!(num>=0 && num <= 255))
             {
                 MessageBox.Show("Tu número debe estar en el rango 0...255", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 this.txtNumero.Focus();
                 return;
             }
+            encerar();
+            numeroBinario(num);
+        }//Fin del botón
+
+        void encerar()
+        {
+            //establece todos los checkbox en falso
+            this.chk1.Checked = false;
+            this.chk2.Checked = false;
+            this.chk3.Checked = false;
+            this.chk4.Checked = false;
+            this.chk5.Checked = false;
+            this.chk6.Checked = false;
+            this.chk7.Checked = false;
+            this.chk8.Checked = false;
         }
+
+        void numeroBinario(int num)
+        {
+            //bucle para transformar el numero a binario
+            int cont = 9;
+            while (num > 0)
+            {
+                int residuo = num % 2;
+                cont--;
+                if (cont == 8)
+                {
+                    this.chk8.Checked = residuo == 0 ? false : true;
+                }
+                else if (cont == 7)
+                {
+                    this.chk7.Checked = residuo == 0 ? false : true;
+                }
+                else if (cont == 6)
+                {
+                    this.chk6.Checked = residuo == 0 ? false : true;
+                }
+                else if (cont == 5)
+                {
+                    this.chk5.Checked = residuo == 0 ? false : true;
+                }
+                else if (cont == 4)
+                {
+                    this.chk4.Checked = residuo == 0 ? false : true;
+                }
+                else if (cont == 3)
+                {
+                    this.chk3.Checked = residuo == 0 ? false : true;
+                }
+                else if (cont == 2)
+                {
+                    this.chk2.Checked = residuo == 0 ? false : true;
+                }
+                else if (cont == 1)
+                {
+                    this.chk1.Checked = residuo == 0 ? false : true;
+                }
+                num = num / 2;
+
+            }//Fin del bucle while
+        }
+
+
     }
 }
