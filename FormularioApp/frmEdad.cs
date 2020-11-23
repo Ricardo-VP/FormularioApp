@@ -43,19 +43,19 @@ namespace FormularioApp
             }
             else if(edad>=15 && edad <= 17)
             {
-                txtEdad.Text = "Eres menor de edad";
+                txtEdad.Text = (txtNombre.Text + " eres menor de edad");
             }else if(edad >=18 && edad<=25)
             {
-                txtEdad.Text = "Puedes votar en las elecciones 2021";
+                txtEdad.Text = txtNombre.Text + " puedes votar en las elecciones 2021";
             }else if(edad >=26 && edad <= 30)
             {
-                txtEdad.Text = "Ya debes casarte";
+                txtEdad.Text = txtNombre.Text + " ya debes casarte";
             }else if(edad >=31 && edad <= 50)
             {
-                txtEdad.Text = "Trabaja, duerme y disfruta";
+                txtEdad.Text = txtNombre.Text + " trabaja, duerme y disfruta";
             }else if(edad > 50)
             {
-                txtEdad.Text = "Ya casi llegas a la tercera edad";
+                txtEdad.Text = txtNombre.Text + " ya casi llegas a la tercera edad";
             }
         }
 
