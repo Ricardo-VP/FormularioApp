@@ -114,7 +114,6 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmEdad";
             this.Text = "Calcular rango de edad";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.ResumeLayout(false);
             this.PerformLayout();
 

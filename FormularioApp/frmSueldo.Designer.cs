@@ -92,9 +92,9 @@
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(43, 164);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(353, 334);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
@@ -104,7 +104,7 @@
             // 
             this.txtTotalIn.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTotalIn.Location = new System.Drawing.Point(89, 283);
-            this.txtTotalIn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTotalIn.Margin = new System.Windows.Forms.Padding(4);
             this.txtTotalIn.Name = "txtTotalIn";
             this.txtTotalIn.ReadOnly = true;
             this.txtTotalIn.Size = new System.Drawing.Size(132, 29);
@@ -114,7 +114,7 @@
             // 
             this.txtBono.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtBono.Location = new System.Drawing.Point(89, 214);
-            this.txtBono.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtBono.Margin = new System.Windows.Forms.Padding(4);
             this.txtBono.Name = "txtBono";
             this.txtBono.Size = new System.Drawing.Size(132, 29);
             this.txtBono.TabIndex = 11;
@@ -124,7 +124,7 @@
             // 
             this.txtValorHora.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtValorHora.Location = new System.Drawing.Point(89, 149);
-            this.txtValorHora.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtValorHora.Margin = new System.Windows.Forms.Padding(4);
             this.txtValorHora.Name = "txtValorHora";
             this.txtValorHora.Size = new System.Drawing.Size(132, 29);
             this.txtValorHora.TabIndex = 10;
@@ -134,7 +134,7 @@
             // 
             this.txtHoras.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtHoras.Location = new System.Drawing.Point(89, 78);
-            this.txtHoras.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtHoras.Margin = new System.Windows.Forms.Padding(4);
             this.txtHoras.Name = "txtHoras";
             this.txtHoras.Size = new System.Drawing.Size(132, 29);
             this.txtHoras.TabIndex = 9;
@@ -197,9 +197,9 @@
             this.groupBox2.Controls.Add(this.label7);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(595, 164);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox2.Size = new System.Drawing.Size(353, 334);
             this.groupBox2.TabIndex = 3;
             this.groupBox2.TabStop = false;
@@ -210,7 +210,7 @@
             // 
             this.txtTotalEgr.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTotalEgr.Location = new System.Drawing.Point(81, 283);
-            this.txtTotalEgr.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTotalEgr.Margin = new System.Windows.Forms.Padding(4);
             this.txtTotalEgr.Name = "txtTotalEgr";
             this.txtTotalEgr.ReadOnly = true;
             this.txtTotalEgr.Size = new System.Drawing.Size(132, 29);
@@ -220,7 +220,7 @@
             // 
             this.txtCtaPagar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCtaPagar.Location = new System.Drawing.Point(81, 214);
-            this.txtCtaPagar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtCtaPagar.Margin = new System.Windows.Forms.Padding(4);
             this.txtCtaPagar.Name = "txtCtaPagar";
             this.txtCtaPagar.Size = new System.Drawing.Size(132, 29);
             this.txtCtaPagar.TabIndex = 6;
@@ -230,7 +230,7 @@
             // 
             this.txtBar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtBar.Location = new System.Drawing.Point(81, 149);
-            this.txtBar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtBar.Margin = new System.Windows.Forms.Padding(4);
             this.txtBar.Name = "txtBar";
             this.txtBar.Size = new System.Drawing.Size(132, 29);
             this.txtBar.TabIndex = 5;
@@ -240,7 +240,7 @@
             // 
             this.txtAso.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtAso.Location = new System.Drawing.Point(81, 78);
-            this.txtAso.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtAso.Margin = new System.Windows.Forms.Padding(4);
             this.txtAso.Name = "txtAso";
             this.txtAso.Size = new System.Drawing.Size(132, 29);
             this.txtAso.TabIndex = 4;
@@ -296,7 +296,7 @@
             // 
             this.txtNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNombre.Location = new System.Drawing.Point(356, 113);
-            this.txtNombre.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtNombre.Margin = new System.Windows.Forms.Padding(4);
             this.txtNombre.MaxLength = 50;
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(323, 30);
@@ -318,7 +318,7 @@
             // 
             this.btnCalcular.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCalcular.Location = new System.Drawing.Point(404, 267);
-            this.btnCalcular.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCalcular.Margin = new System.Windows.Forms.Padding(4);
             this.btnCalcular.Name = "btnCalcular";
             this.btnCalcular.Size = new System.Drawing.Size(183, 42);
             this.btnCalcular.TabIndex = 6;
@@ -330,7 +330,7 @@
             // 
             this.btnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSalir.Location = new System.Drawing.Point(404, 345);
-            this.btnSalir.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSalir.Margin = new System.Windows.Forms.Padding(4);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(183, 38);
             this.btnSalir.TabIndex = 7;
@@ -351,10 +351,9 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmSueldo";
             this.Text = "Cálculo del sueldo de un trabajador";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.frmSueldo_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

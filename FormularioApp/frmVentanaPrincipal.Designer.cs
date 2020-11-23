@@ -58,6 +58,7 @@
             this.btnEdad.TabIndex = 1;
             this.btnEdad.Text = "Edad";
             this.btnEdad.UseVisualStyleBackColor = true;
+            this.btnEdad.Click += new System.EventHandler(this.btnEdad_Click);
             // 
             // btnFechaN
             // 
@@ -68,6 +69,7 @@
             this.btnFechaN.TabIndex = 2;
             this.btnFechaN.Text = "Fecha de nac.";
             this.btnFechaN.UseVisualStyleBackColor = true;
+            this.btnFechaN.Click += new System.EventHandler(this.btnFechaN_Click);
             // 
             // btnNumABin
             // 
@@ -78,6 +80,7 @@
             this.btnNumABin.TabIndex = 3;
             this.btnNumABin.Text = "Num a Bin";
             this.btnNumABin.UseVisualStyleBackColor = true;
+            this.btnNumABin.Click += new System.EventHandler(this.btnNumABin_Click);
             // 
             // btnPrimo
             // 
@@ -88,6 +91,7 @@
             this.btnPrimo.TabIndex = 4;
             this.btnPrimo.Text = "Num Primo";
             this.btnPrimo.UseVisualStyleBackColor = true;
+            this.btnPrimo.Click += new System.EventHandler(this.btnPrimo_Click);
             // 
             // btnSueldo
             // 
@@ -98,6 +102,7 @@
             this.btnSueldo.TabIndex = 5;
             this.btnSueldo.Text = "Sueldo";
             this.btnSueldo.UseVisualStyleBackColor = true;
+            this.btnSueldo.Click += new System.EventHandler(this.btnSueldo_Click);
             // 
             // label1
             // 
