@@ -16,7 +16,7 @@ namespace FormularioApp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmEdad());
+            Application.Run(new frmVentanaPrincipal());
         }
     }
 }

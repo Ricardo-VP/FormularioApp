@@ -39,9 +39,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(33, 108);
+            this.label1.Location = new System.Drawing.Point(44, 133);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(261, 25);
+            this.label1.Size = new System.Drawing.Size(316, 31);
             this.label1.TabIndex = 0;
             this.label1.Text = "Ingresa tu fecha de nacimiento:";
             // 
@@ -49,34 +50,38 @@
             // 
             this.dtpFecha.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtpFecha.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpFecha.Location = new System.Drawing.Point(93, 151);
+            this.dtpFecha.Location = new System.Drawing.Point(124, 186);
+            this.dtpFecha.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dtpFecha.Name = "dtpFecha";
-            this.dtpFecha.Size = new System.Drawing.Size(142, 29);
+            this.dtpFecha.Size = new System.Drawing.Size(188, 35);
             this.dtpFecha.TabIndex = 1;
             this.dtpFecha.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
             // txtEdadAn
             // 
             this.txtEdadAn.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtEdadAn.Location = new System.Drawing.Point(38, 256);
+            this.txtEdadAn.Location = new System.Drawing.Point(51, 315);
+            this.txtEdadAn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtEdadAn.Name = "txtEdadAn";
-            this.txtEdadAn.Size = new System.Drawing.Size(247, 29);
+            this.txtEdadAn.Size = new System.Drawing.Size(328, 35);
             this.txtEdadAn.TabIndex = 2;
             // 
             // txtEdadDias
             // 
             this.txtEdadDias.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtEdadDias.Location = new System.Drawing.Point(38, 319);
+            this.txtEdadDias.Location = new System.Drawing.Point(51, 393);
+            this.txtEdadDias.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtEdadDias.Name = "txtEdadDias";
-            this.txtEdadDias.Size = new System.Drawing.Size(247, 29);
+            this.txtEdadDias.Size = new System.Drawing.Size(328, 35);
             this.txtEdadDias.TabIndex = 3;
             // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(119, 196);
+            this.button1.Location = new System.Drawing.Point(159, 241);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(85, 40);
+            this.button1.Size = new System.Drawing.Size(113, 49);
             this.button1.TabIndex = 4;
             this.button1.Text = "Calcular";
             this.button1.UseVisualStyleBackColor = true;
@@ -84,16 +89,18 @@
             // 
             // frmFecha
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(320, 450);
+            this.ClientSize = new System.Drawing.Size(427, 554);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.txtEdadDias);
             this.Controls.Add(this.txtEdadAn);
             this.Controls.Add(this.dtpFecha);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmFecha";
             this.Text = "Calcular edad en años y días";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.ResumeLayout(false);
             this.PerformLayout();
 
