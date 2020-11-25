@@ -102,10 +102,9 @@ namespace FormularioApp
 
         private void toolStripMenuItem2_Click(object sender, EventArgs e)
         {
-            //Abrir el formulario binario a decimal
-            frmBinarioANum frm1 = new frmBinarioANum();
-            frm1.MdiParent = this; //Establece como formulario padre, el menú
-            frm1.Show();
+            frmFactorial frm8 = new frmFactorial();
+            frm8.MdiParent = this;
+            frm8.Show();
         }
 
         private void saveToolStripMenuItem_Click(object sender, EventArgs e)
@@ -120,6 +119,20 @@ namespace FormularioApp
             frmNumPrimo frm5 = new frmNumPrimo();
             frm5.MdiParent = this;
             frm5.Show();
+        }
+
+        private void toolStripButton2_Click(object sender, EventArgs e)
+        {
+            frmTabla frm7 = new frmTabla();
+            frm7.MdiParent = this;
+            frm7.Show();
+        }
+
+        private void toolStripButton3_Click(object sender, EventArgs e)
+        {
+            frmFactorial frm8 = new frmFactorial();
+            frm8.MdiParent = this;
+            frm8.Show();
         }
     }
 }

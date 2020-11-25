@@ -58,6 +58,12 @@
     <Compile Include="frmEdad.Designer.cs">
       <DependentUpon>frmEdad.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmFactorial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFactorial.Designer.cs">
+      <DependentUpon>frmFactorial.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmFecha.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,6 +94,12 @@
     <Compile Include="frmSueldo.Designer.cs">
       <DependentUpon>frmSueldo.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmTabla.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTabla.Designer.cs">
+      <DependentUpon>frmTabla.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmVentanaPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -101,6 +113,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmEdad.resx">
       <DependentUpon>frmEdad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFactorial.resx">
+      <DependentUpon>frmFactorial.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmFecha.resx">
       <DependentUpon>frmFecha.cs</DependentUpon>
@@ -116,6 +131,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmSueldo.resx">
       <DependentUpon>frmSueldo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTabla.resx">
+      <DependentUpon>frmTabla.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmVentanaPrincipal.resx">
       <DependentUpon>frmVentanaPrincipal.cs</DependentUpon>
